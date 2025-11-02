@@ -44,4 +44,42 @@ After processing, the program gives us clean and meaningful words that represent
 
 
 
+## Question2
+
+
+   #  Named Entity Recognition (NER) and Pronoun Ambiguity Detection
+
+This small NLP project uses **spaCy** to automatically detect **named entities** (like people, organizations, and places)  
+and to warn when the text contains **ambiguous pronouns** such as *he*, *she*, or *they* that might make the meaning unclear.
+
+It’s a simple example of how Natural Language Processing (NLP) can help us understand text better —  
+especially when we need to identify *who* or *what* a sentence is referring to.
+
+---
+
+##  Example
+
+**Input Text:**
+> "Chris met Alex at Apple headquarters in California. He told him about the new iPhone launch."
+
+##  How It Works
+
+1. **Named Entity Recognition (NER)**  
+   - Detects entities such as:
+     -  People (e.g., Chris, Alex)  
+     -  Organizations (e.g., Apple)  
+     -  Locations (e.g., California)
+   - Powered by **spaCy’s English model** (`en_core_web_sm`).
+
+2. **Pronoun Ambiguity Detection**  
+   - Looks for pronouns like *he, she, him, her, they, them*.
+   - If found, it prints a warning message to highlight potential confusion.
+
+
+
+   
+
+
+
+
 
