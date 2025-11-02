@@ -1,6 +1,6 @@
 # Assignment-4
 
-#  NLP Text Processing with spaCy
+#  NLP Text Processing 
   
 The code demonstrates how to:
 - Break a sentence into **tokens** (individual words)
